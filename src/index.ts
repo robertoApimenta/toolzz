@@ -1,14 +1,10 @@
 import dotenv from 'dotenv';
-import express from 'express';
+import { api } from './api';
 
 dotenv.config();
 
-const app = express();
+const PORT = process.env.PORT;
 
-app.use(express.json());
-
-const PORT = process.env.API_PORT;
-
-app.listen(PORT, () => {
-  console.log(`Server runing in ${PORT} 🚀`);
-});
+api.listen(PORT, () => {
+    console.log(`Server running in port ${PORT}`)
+})
