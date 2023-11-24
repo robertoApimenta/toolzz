@@ -23,3 +23,7 @@
 `npm start`
 
 ###### Acesse as rotas da aplicação, para isso vc pode usar o arquivo exportado do insomnia, ele está na raiz do projeto.
+
+Pra rodar os testes unitário rode o comando:
+
+`npm test`
