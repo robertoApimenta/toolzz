@@ -18,6 +18,10 @@
 
 ![1700836592213](image/README/1700836592213.png)
 
+###### OBS: certifique-se de estar com o postgres rodando localmente na porta 5432, caso não tenha o mesmo instalado em sua máquina rode em um container docker utilize o comando abaixo:
+
+`docker run --mypostgres -e POSTGRES_ROOT=user -e POSTGRES_PASSWORD=password -p 5432:5432 -d postgres`
+
 ###### Rode o servidor:
 
 `npm start`
