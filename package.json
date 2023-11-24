@@ -5,8 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "jest",
-    "dev": "nodemon ./src/index",
-    "generate:openapi": "tsoa swagger"
+    "dev": "nodemon ./src/index"
   },
   "repository": {
     "type": "git",
@@ -36,7 +35,6 @@
     "prisma": "^5.6.0",
     "supertest": "^6.3.3",
     "ts-node": "^10.9.1",
-    "tsoa": "^5.1.1",
     "typescript": "^5.3.2"
   }
 }
